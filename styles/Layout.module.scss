@@ -1,0 +1,53 @@
+@import './variables';
+
+.Header {
+  margin: 20px 64px;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 12px;
+  box-shadow: 10px 10px 64px -16px rgba(0,0,0,0.51);
+  color: $cream-white;
+  z-index: 1;
+  .Nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    #Logo {
+      margin: 0 2.5rem;
+      font-size: 2rem;
+    }
+    .NavItem {
+      margin: 0 2rem;
+      font-size: 1.25rem;
+      font-weight: 300;
+      display: inline-block;
+      padding: 20px 20px;
+      position: relative;
+      &:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      &:hover:after{
+        width: 100%; 
+        left: 0; 
+      }
+    }
+  }
+}
+.Body {
+  min-height: 100vh;
+  background-color: transparent;
+  z-index: 1;
+}
