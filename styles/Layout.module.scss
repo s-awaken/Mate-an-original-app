@@ -12,6 +12,9 @@
   box-shadow: 10px 10px 64px -16px rgba(0,0,0,0.51);
   color: $cream-white;
   z-index: 1;
+  background: rgba(255, 255, 255, .25);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
   .Nav {
     display: flex;
     flex-direction: row;
@@ -47,7 +50,19 @@
   }
 }
 .Body {
-  min-height: 100vh;
   background-color: transparent;
   z-index: 1;
+}
+.Footer {
+  margin: 20px 64px;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 10px 10px 64px -16px rgba(0,0,0,0.51);
+  color: $cream-white;
+  z-index: 1;
+  background-color: transparent;
 }

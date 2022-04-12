@@ -1,12 +1,12 @@
 import React, {FC} from 'react'
-
+import styles from '@/styles/Layout.module.scss';
 interface Props {
   
 }
 
-const Footer:FC<Props> = (props) => {
+const Footer: FC<Props> = (props) => {
   return (
-    <div>
+    <div className={styles.Footer}>
       This is Footer
     </div>
   )

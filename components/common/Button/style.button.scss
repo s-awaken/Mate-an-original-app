@@ -1,0 +1,53 @@
+.button {
+  &--primary {
+    background-color: #00a8ff;
+    color: #fff;
+    border-color: #00a8ff;
+  }
+  &--secondary {
+    background-color: #fff;
+    color: #00a8ff;
+    border-color: #00a8ff;
+  }
+  &--warning {
+    background-color: #fff;
+    color: #00a8ff;
+    border-color: #00a8ff;
+  }
+  &--danger {
+    background-color: #fff;
+    color: #00a8ff;
+    border-color: #00a8ff;
+  }
+  &--success {
+    background-color: #fff;
+    color: #00a8ff;
+    border-color: #00a8ff;
+  }
+  &--info{
+    background-color: #fff;
+    color: #00a8ff;
+    border-color: #00a8ff;
+  }
+  &__size {
+    font-size: 14px;
+    padding: 10px 20px;
+    &--small {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+    &--medium {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+    &--large {
+      font-size: 16px;
+      padding: 14px 24px;
+    }
+  }
+  &:disabled {
+    background-color: #e6e6e6;
+    color: #fff;
+    border-color: #e6e6e6;
+  }
+}
